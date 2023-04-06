@@ -54,7 +54,8 @@ public class CustomerServiceMockRestServiceServerUnitTest {
     void givenMockingIsDoneByMockCustomerRestServiceServer_whenGetIsCalled_thenReturnsMockedCustomerListObject() throws Exception {
         //given
         Customer customer1 = new Customer(1, "Evan");
-        Customer customer2 = new Customer(2, "Alin");
+        Customer customer2 = new Customer(2, null);
+        //Customer customer2 = new Customer(2, "Alin");
         List<Customer> customerList = new ArrayList<Customer>();
         customerList.add(customer1);
         customerList.add(customer2);

@@ -1,13 +1,13 @@
 package com.eshare.resttemplate.model;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.NonNull;
 
 @Data
 public class Customer {
-
+    @NonNull
     private int id;
+    @NonNull
     private String name;
 
     public Customer(){

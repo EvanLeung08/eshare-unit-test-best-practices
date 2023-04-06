@@ -31,7 +31,7 @@ public class CustomerServiceImplTest {
     void testGetCustomerList() {
         //given
         Customer customer1 = new Customer(1, "Evan");
-        Customer customer2 = new Customer(2, "Alin");
+        Customer customer2 = new Customer(2, null);
         List<Customer> customerList = new ArrayList<Customer>();
         customerList.add(customer1);
         customerList.add(customer2);
