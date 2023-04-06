@@ -2,7 +2,6 @@ package com.eshare.resttemplate.service;
 
 import com.eshare.resttemplate.SpringTestConfig;
 import com.eshare.resttemplate.model.Customer;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Assertions;
@@ -20,7 +19,6 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.client.ExpectedCount;
 import org.springframework.test.web.client.MockRestServiceServer;
 import org.springframework.web.client.RestTemplate;
-
 
 import java.net.URI;
 import java.nio.charset.Charset;
